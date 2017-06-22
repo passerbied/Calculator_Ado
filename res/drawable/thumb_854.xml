@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the thumb on the seek bar. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--圧下状態 -->
+    <item android:drawable="@drawable/slider_icon" android:state_pressed="true" />
+    <!-- フォカースがない状態 -->
+    <item android:drawable="@drawable/slider_icon" android:state_focused="false" android:state_pressed="false"/>
+
+</selector>

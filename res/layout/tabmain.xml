@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/appbackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/main_tab_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.017"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/main_radio"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="-5dp"
+                android:layout_marginTop="17dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0"
+                    android:gravity="center" >
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="10dp"
+                        android:background="#00000000" >
+
+                        <RadioButton
+                            android:id="@+id/radio_menu0"
+                            style="@style/MMTabButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000"
+                            android:checked="true" />
+
+                        <ImageView
+                            android:id="@+id/tab_menu0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/arrow_l" >
+                        </ImageView>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="7dp"
+                         android:layout_marginLeft="7dp"
+                        android:background="#00000000" >
+
+                        <RadioButton
+                            android:id="@+id/radio_menu1"
+                            style="@style/MMTabButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000"
+                            android:checked="true" />
+
+                        <ImageView
+                            android:id="@+id/tab_menu1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:background="#00000000" >
+
+                        <RadioButton
+                            android:id="@+id/radio_menu2"
+                            style="@style/MMTabButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000" />
+
+                        <ImageView
+                            android:id="@+id/tab_menu2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginRight="7dp"
+                        android:background="#00000000" >
+
+                        <RadioButton
+                            android:id="@+id/radio_menu3"
+                            style="@style/MMTabButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000" />
+
+                        <ImageView
+                            android:id="@+id/tab_menu3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10dp"
+                        android:background="#00000000" >
+
+                        <RadioButton
+                            android:id="@+id/radio_menu4"
+                            style="@style/MMTabButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="#00000000"
+                            android:checked="true" />
+
+                        <ImageView
+                            android:id="@+id/tab_menu4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/arrow_r" >
+                        </ImageView>
+                    </FrameLayout>
+                </LinearLayout>
+            </RadioGroup>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.95"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+            </LinearLayout>
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</TabHost>

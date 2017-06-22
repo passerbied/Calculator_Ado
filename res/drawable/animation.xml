@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/cal_anime01"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime02"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime03"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime04"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime05"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime06"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime07"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime08"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime09"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime10"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime11"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime12"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime13"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime14"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime15"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime16"
+        android:duration="100">
+    </item>
+    <item
+        android:drawable="@drawable/cal_anime17"
+        android:duration="100">
+    </item>
+   
+</animation-list>

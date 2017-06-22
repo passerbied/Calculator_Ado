@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PJ_CalculatorActivity!</string>
+    <string name="app_name">亜土ちゃん 電卓</string>
+    <!-- Tab Name -->
+    <string name="dentaku">電卓</string>
+    <string name="warikann">割り勘</string>
+    <string name="waribikikeisann">割引計算</string>
+    <!-- 電卓Tab -->
+    <string name="copy">コピー</string>
+    <string name="paste">ペースト</string>
+    <string name="sent">Sent</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="num0">0</string>
+    <string name="c">->|</string>
+    <string name="ac">AC</string>
+    <string name="per">%</string>
+    <string name="change">+/-</string>
+    <string name="div">÷</string>
+    <string name="plus">+</string>
+    <string name="sub">-</string>
+    <string name="mul">x</string>
+    <string name="dot">.</string>
+    <string name="equal">=</string>
+
+    <!-- 割り勘Tab -->
+    <string name="sougaku">金額</string>
+    <string name="ninnzuu">人数</string>
+    <string name="kinngaku_low">少なく払う人</string>
+    <string name="kinngaku_high">多く払う人</string>
+    <string name="ooku_hito">多く払う人数</string>
+    <string name="kinngaku_total">合計金額</string>
+    <string name="ooku_kinngaku">上のせ金額</string>
+    <string name="keisann">計算</string>
+    <string name="oturi">おつり</string>
+    <string name="kuria">クリア</string>
+    <string name="money">円</string>
+    <string name="nin">人</string>
+
+    <!-- 割引計算Tab -->
+    <string name="gennne">元値</string>
+    <string name="waribikiritu">割引率</string>
+    <string name="waribikikekka">割引結果</string>
+    <string name="waribigaku">割引額</string>
+    <string name="waribikiato">割引後</string>
+
+    <!-- PopUpWindow -->
+    <string name="Cancel">キャンセル</string>
+
+    <!-- Message -->
+    <string name="Copy_OK">コピーしました。</string>
+    <string name="Paste_OK">ペーストしました。</string>
+    <!-- Error -->
+    <string name="Error1">除数は０にする事はできません。</string>
+    <string name="Error">計算式は正しくありません。</string>
+    <string name="Error2">割引率は１００以内を設定してください。</string>
+    <string name="Error3">[多く払う人]は[人数]よりも小さい値を入力してください。</string>
+    <string name="Error4">[金額]は[人数]よりも大きい値を入力してください。</string>
+    <string name="Error5">[金額]は[上のせ金額]よりも大きい値を入力してください。</string>
+    <string name="Error6">[人数]は[金額]よりも小さい値を入力してください。</string>
+    <string name="Error7">[人数]は[多く払う人]よりも大きい値を入力してください。</string>
+    <string name="Error8">[多く払う人]は[人数]よりも小さい値を入力してください。</string>
+    <string name="Error9">[上のせ金額]は[金額]よりも小さい値を入力してください。</string>
+
+</resources>

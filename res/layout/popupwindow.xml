@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="265dp"
+    android:layout_height="265dp"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_01"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bord_bg"
+            android:orientation="vertical"
+            android:paddingBottom="0dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="7dp"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/ly01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/button_7"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_7"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_8"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_8"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_9"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_9"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/button_4"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_4"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_5"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_5"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_6"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_6"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly03"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/button_1"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_1"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_2"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_2"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_3"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_3"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly04"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/button_0"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_0"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_ac"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_ac"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+
+                <ImageButton
+                    android:id="@+id/button_delete"
+                    style="@style/btn_style_popwindow"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_c"
+                    android:clickable="true"
+                    android:onClick="onClickListener_Input" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="#00000000"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/button_close"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_toRightOf="@id/LinearLayout_01"
+            android:background="@drawable/bord_cl_bt"
+            android:onClick="onClickListener_Input" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<bool name="flamingo_auth">true</bool>
+<string name="flamingo_server_scheme">https</string>
+<string name="flamingo_application_authorize_url_authority">love-suzyszoo.jp</string>
+<string name="flamingo_application_authorize_url_path">FLM001</string>
+<string name="flamingo_user_certificate_url_authority">love-suzyszoo.jp</string>
+<string name="flamingo_user_certificate_url_path">FLM002</string>
+<string name="flamingo_redirect_scheme">flamingo</string>
+<string name="flamingo_redirect_PathPrefix">/auth/callback/</string>
+</resources>
